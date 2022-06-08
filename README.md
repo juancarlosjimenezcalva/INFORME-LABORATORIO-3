@@ -29,95 +29,53 @@ Informe del laboratorio 3
 
 1.	Ubicamos las resistencias como se muestra en el esquema del circuito.
 
-![image](https://user-images.githubusercontent.com/105565683/171678227-c96927b5-9a2c-4c01-8fd4-a8c2ed497e5a.png)
+![image](https://user-images.githubusercontent.com/105565683/172513040-d34e9826-d9ed-47f9-a8cd-d0ef39e74ba9.png)
 
 2.	Conectar las resistencias por medio de los cables de acuerdo con el esquema, que cumpla con el circuito mixto.
 
-![image](https://user-images.githubusercontent.com/105565683/171679087-ea674298-4c8f-4e65-b149-a7e00bbd9b84.png)
+![image](https://user-images.githubusercontent.com/105565683/172513138-b5935d4f-bf93-4a48-8385-bc4f658082f0.png)
 
 3.	Conectamos las fuentes de voltaje C.D. (en caso de simulador), de acuerdo al esquema, en los polos positivo y negativo de las resistencias.
 
-![image](https://user-images.githubusercontent.com/105565683/171679208-83f1e2f6-e551-4cd2-983d-f6d8f70a1449.png)
+![image](https://user-images.githubusercontent.com/105565683/172513234-9c016f56-d718-47d3-96e7-4dbf6301b3e8.png)
 
 #### CIRCUITO FISICO
 
 Siguiendo el mismo proceso, armamos el circuito físico:
 
-![45](https://user-images.githubusercontent.com/105565683/172270688-27b6db96-b8f1-44e0-bbd0-f818bdebd436.jpg)
 
-![46](https://user-images.githubusercontent.com/105565683/172270735-ba0b0e43-df6d-45e6-88a8-9645b5030b65.jpg)
 
-### CALCULO DE LOS VOLTAJES Y CORRIENTES (METODO DE MALLAS)
+### CALCULO DE LOS VOLTAJES Y CORRIENTES
 
-### CALCULOS DE LAS MALLAS
+### ANÁLISIS DE NODOS
 
-![image](https://user-images.githubusercontent.com/105565683/172270012-14b8c6b3-5945-46b4-acde-11b61d9847cd.png)
+![image](https://user-images.githubusercontent.com/105565683/172513356-681528ab-249a-488b-ac16-049d0588418c.png)
 
-![image](https://user-images.githubusercontent.com/105565683/172270028-2782b620-68af-497b-8556-884a9b6e4861.png)
+Basándonos en el esquema de circuitos, podemos ver que existen dos nodos principales, dos nodos fantasmas y un nodo de referencia, quedando de la siguiente forma:
 
-![image](https://user-images.githubusercontent.com/105565683/172270051-bb021654-6ad8-4c05-9f63-e200ad239fc0.png)
+![image](https://user-images.githubusercontent.com/105565683/172513383-34e59255-f1e6-4eaa-b2ec-4debb7f96881.png)
 
-### SISTEMA DE ECUACIONES:
+![image](https://user-images.githubusercontent.com/105565683/172513422-dcba1b84-e8cc-475b-aab7-d8a8138e0f8b.png)
 
-![image](https://user-images.githubusercontent.com/105565683/172270081-9afff4e3-935c-4106-a267-b4f6b0381840.png)
-
-Resolviendo el sistema de ecuaciones usando una calculadora online:
-
-![image](https://user-images.githubusercontent.com/105565683/172270104-086b944f-d2db-4d87-a3aa-76f06f16dd51.png)
-
-![image](https://user-images.githubusercontent.com/105565683/172270123-30d22dbd-05ae-4db0-b598-2e074419e703.png)
-
-Como las corrientes para la malla 2 y la malla 3, van en sentido apuesto a la corriente principal, por lo que cambiamos de signo en dichas mallas.
-
-![image](https://user-images.githubusercontent.com/105565683/172270150-bf2ee556-9ac4-453f-b754-5041f12b2238.png)
-
-### CALCULOS DE LOS NODOS
-
-![image](https://user-images.githubusercontent.com/105565683/172270164-b7597589-25d2-4986-9f9d-6b713d3bf4a9.png)
-
-![image](https://user-images.githubusercontent.com/105565683/172270176-bed09c2a-0f92-44bc-8571-c369165f9e78.png)
-
-![image](https://user-images.githubusercontent.com/105565683/172270203-0f34a628-dd5e-4186-afa4-967de49fd6cf.png)
-
-Para comprobar los valores de realizo los mismos calculos por medio del metodo de corrientes de rama.
-
-### CALCULO DE LOS VOLTAJES Y CORRIENTES (METODO DE CORRIENTES DE RAMA)
-
-![image](https://user-images.githubusercontent.com/105565683/171548070-deec4c3b-bd98-4278-bc1f-3359c1bee2e8.png)
-
-Basándonos en el esquema de circuitos, podemos ver que existen tres mallas y dos nodos, quedando de la siguiente forma:
-
-![image](https://user-images.githubusercontent.com/105565683/171548108-83017050-d822-47e9-8cec-3a09cc065d7b.png)
-
-### CALCULOS DE LOS NODOS
-
-![image](https://user-images.githubusercontent.com/105565683/171548170-c849ca95-9d5a-49b3-be8e-476977020dec.png)
-
-![image](https://user-images.githubusercontent.com/105565683/171548191-771ec00c-d0e3-4c8b-97a3-b08f5fe83709.png)
-
-![image](https://user-images.githubusercontent.com/105565683/171548239-bde0322d-72a7-402d-b2dd-1765cae895fa.png)
-
-### CALCULOS DE LAS MALLAS
-
-![image](https://user-images.githubusercontent.com/105565683/171548329-94246771-45bb-4fcf-926d-23b44349c256.png)
-
-![image](https://user-images.githubusercontent.com/105565683/171548344-66330c66-eb69-4dad-829c-c4cc054477ad.png)
-
-![image](https://user-images.githubusercontent.com/105565683/171548373-1250ceb2-f45f-40c8-8e12-4fddca577420.png)
+![image](https://user-images.githubusercontent.com/105565683/172513479-98001d75-1657-4e16-bd88-8467912bb286.png)
 
 ### SISTEMA DE ECUACIONES:
 
-![image](https://user-images.githubusercontent.com/105565683/171548479-ced5255a-13fb-4918-b53d-58c57544dad8.png)
+![image](https://user-images.githubusercontent.com/105565683/172513558-40d95c98-2b98-4ec0-83e4-466787c5377d.png)
 
-Resolviendo el sistema de ecuaciones usando una calculadora online:
+Utilizando una calculadora online, resuelvo el sistema:
 
-![image](https://user-images.githubusercontent.com/105565683/171548507-538a188b-9870-429a-9153-ee378a5f99ff.png)
+![image](https://user-images.githubusercontent.com/105565683/172513693-e9c0fc93-7aea-498c-abc3-63487b2b57e6.png)
 
-![image](https://user-images.githubusercontent.com/105565683/171548536-60aa56ed-016e-4aa4-b0be-5f050631149f.png)
+![image](https://user-images.githubusercontent.com/105565683/172513736-0edaec50-4266-495d-8a12-e7790c7cb76f.png)
 
-Teniendo las resistencias y la corriente, calculamos el voltaje:
+Obtengo los valores de los voltajes:
 
-![image](https://user-images.githubusercontent.com/105565683/171683970-1760d77f-0f0a-4d28-a21d-18abedda3405.png)
+![image](https://user-images.githubusercontent.com/105565683/172513802-74c36312-7ea9-49a5-9ca9-7330a72373fe.png)
+
+Una vez obtenidos los voltajes, obtengo las corrientes:
+
+![image](https://user-images.githubusercontent.com/105565683/172513834-e1e56b73-3e29-4682-98c4-a4f4513792ea.png)
 
 ## RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
