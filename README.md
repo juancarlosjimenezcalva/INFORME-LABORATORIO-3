@@ -43,7 +43,9 @@ Informe del laboratorio 3
 
 Siguiendo el mismo proceso, armamos el circuito físico:
 
+![1](https://user-images.githubusercontent.com/105565683/172524767-10795685-023a-43ee-9372-2490747021c8.jpg)
 
+![2](https://user-images.githubusercontent.com/105565683/172524790-851e899d-2d5b-4249-bd25-a98a46e60832.jpg)
 
 ### CALCULO DE LOS VOLTAJES Y CORRIENTES
 
@@ -93,7 +95,7 @@ Una vez obtenidos los voltajes, obtengo las corrientes:
 
 Para el circuito físico se utilizaron baterías y pilas para las fuentes de voltaje, siendo de 6 V y 9 V, por ende, existirá una ligera diferencia entre los resultados, también se tomarán en cuenta los resultados obtenidos en ambos circuitos del grupo.
 
-(cuadro / faltan el fisico)
+![image](https://user-images.githubusercontent.com/105565683/172524856-fece0fdf-7e2e-4f8f-a5e8-1ee75b6ba127.png)
 
 ### RESULTADOS
 
