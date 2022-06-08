@@ -140,7 +140,11 @@ Para el circuito físico se utilizaron baterías y pilas para las fuentes de vol
 
 ### RESULTADOS
 
+Los valores analíticos y simulados, cumplen con la ley de corrientes de Kirchhoff, de la misma forma ambos obtienen los mismos valores en el análisis de nodos.
 
+En cuanto a los valores experimentales existe una ligera diferencia entre los analíticos y simulados, incluso entre ambos circuitos del grupo, es puesto que para el circuito físico se utilizaron fuentes de voltaje de 6 V en lugar de 5 V, y de 9 V en lugar de 10 V, y también las baterías y resistencias de cada circuito del grupo, también varían ligeramente en su valor, por ende existirá una diferencia de hasta una unidad con los valores previstos, esto se observa en las mediciones, sin embargo por regla de tres se puede observar cómo los resultados del circuito físico son casi iguales a los resultados analíticos y simulados. Incluso se realizaron ambos circuitos en TINKERCAD con los valores exactos de los circuitos físicos, y las diferencias se reducen a milésimas.
+
+Respecto al margen de error, es debido a los diferentes valores usados en el circuito físico, y también que siempre existirá una diferencia de milésimas por distintos aspectos, principalmente el redondeo de resultados.
 
 ## VIDEO
 
