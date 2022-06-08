@@ -5,15 +5,56 @@ Informe del laboratorio 3
 
 ### OBJETIVO GENERAL
 
-
+Realizar el análisis de nodos aplicando la Ley de corrientes de Kirchhoff y Ley de Ohm por medio de la elaboración de un circuito eléctrico para obtener los valores de los voltajes de nodo.
 
 ### OBJETIVOS ESPECIFICOS
 
-•	
+•	Elaborar un circuito eléctrico mixto en Tinkercad y físico.
+•	Realizar el análisis de nodos del circuito elaborado para encontrar los valores de los voltajes de nodo.
 
 ## MARCO TEÓRICO
 
-### 
+### Análisis de nodos
+
+El método de análisis de nodos es una herramienta que permite la aplicación de la Ley de corriente de Kirchhoff para la resolución de problemas complejos con un número de variables y ecuaciones.
+
+En este método el objetivo es conocer los voltajes para cada nodo del circuito, por tanto, un nodo es la unión de dos o más elementos que se conectan en un circuito eléctrico, como se indica en la siguiente imagen.
+
+![image](https://user-images.githubusercontent.com/105565683/172525181-4ecd93a6-ac2d-46d2-a683-1d40886c96e2.png)
+
+En un circuito eléctrico siempre se presentará un nodo de referencia, en donde el voltaje de los demás nodos se mide con relación al nodo de referencia.
+
+Tomando en cuenta los nodos, para su análisis se aplica la Ley de corriente de Kirchhoff, que consiste en la suma de todas las corrientes que fluyen hacia un nodo es igual a la suma de las corrientes que salen del nodo, su fórmula es:
+
+![image](https://user-images.githubusercontent.com/105565683/172525223-adb18cbe-15c3-448f-8d57-c2018377345a.png)
+
+El análisis de nodos guarda una relación con la Ley de Ohm para su análisis y construcción de sistema de ecuaciones, por tanto, La ley de Ohm consiste en que la corriente es directamente proporcional al voltaje e inversamente proporcional a la resistencia, manteniendo una relación entre voltaje, corriente y resistencia. Permitiendo el cálculo del voltaje por medio de esta ley, sus fórmulas son:
+
+![image](https://user-images.githubusercontent.com/105565683/172525291-aab53002-352a-4503-87b7-c5a566243208.png)
+
+En donde V es voltaje, R es resistencia e I es corriente.
+
+Por tanto, para el análisis de nodos se emplea la Ley de Kirchhoff y Ley de Ohm permitiendo encontrar los voltajes de los nodos presentes en un circuito eléctrico.
+
+Es importante que haya una ecuación por cada nodo, de esta manera el sistema de ecuaciones es consistente, así el número de incógnitas es igual al número de ecuaciones.
+
+Los pasos para el análisis de nodos son:
+
+#### Paso 1
+
+Seleccionar el nodo de referencia y asignar las tensiones a los nodos restantes, se asignan respecto al nodo de referencia.
+
+#### Paso 2
+
+Dibuja la trayectoria de corriente en cada rama.
+
+#### Paso 3
+
+Aplicar la Ley de Corrientes de Kirchhoff a cada uno de los nodos y usar la Ley de Ohm para expresar las corrientes en términos de tensión del nodo.
+
+#### Paso 4
+
+Resolver el sistema de ecuaciones de los nodos para obtener los voltajes de los nodos desconocidos
 
 ## EXPLICACIÓN DEL PROCEDIMIENTO
 
@@ -107,8 +148,12 @@ Para el circuito físico se utilizaron baterías y pilas para las fuentes de vol
 
 ## CONCLUSIONES
 
-• 
+•	Se utilizó un análisis y comprensión adecuado del esquema proporcionado para la elaboración del circuito eléctrico de tal forma que cumpla lo solicitado con los materiales correctos y su correcta polarización.
+
+•	Se determinó que gracias al análisis de nodos se puede obtener los valores de los voltajes de nodo en un circuito eléctrico por medio de un sistema de ecuaciones.
 
 ## BIBLIOGRAFÍA
 
-- 
+- McAllister, W. (2022). Khan Academy. Obtenido de https://es.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-kirchhoffs-laws
+- MiElectrónicaFácil.com. (2022). MiElectrónicaFácil.com. Obtenido de https://mielectronicafacil.com/analisis-de-circuitos/teorema-de-nodos/
+- Salazar, A. (2009). Fundamentos de circuitos. Bogotá: Ediciones Uniandes. Obtenido de http://wwwprof.uniandes.edu.co/~ant-sala/cursos/FDC/Contenidos/03_Analisis_por_Nodos_y_Mallas.pdf
